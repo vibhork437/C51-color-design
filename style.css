@@ -1,0 +1,40 @@
+h1 {
+    color : blue;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: green;
+    display: block;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content:  baseline;
+    color: yellowgreen;
+}
+
+.grid{
+    display: contents;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+.footer{
+    display: ruby-base-container;
+    justify-content: stretch;
+}
+
+p,h2,h3,h1{
+    text-align: left;
+    color:yellowgreen
+}
+
+body{
+    background-color: #808080;
+}
